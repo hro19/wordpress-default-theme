@@ -1,0 +1,12 @@
+/**************
+ACF
+***************/
+.na_acf_line{
+	padding: 30px 30px 20px 30px !important;
+	text-align: center;
+}
+.na_acf_line label{
+	padding: 10px 20px;
+	border: solid 1px #CCC;
+	background: #FAF8EE;
+}

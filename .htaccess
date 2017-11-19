@@ -1,0 +1,13 @@
+#ƒtƒHƒ‹ƒ_‚ª‚ ‚Á‚Ä‚ànotfound‚É‚È‚ç‚È‚¢‚æ‚¤‚É‚·‚é‘‚«•û
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_URI} !^/wp/wp-admin/
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
